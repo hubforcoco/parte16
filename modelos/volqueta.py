@@ -5,7 +5,7 @@ class Volqueta(Carro):
         super().__init__(placa, marca, modelo, pais_procedencia)
 
         self.capacidad_carga = capacidad_carga
-        self.costo_servicio
+        self.costo_servicio = costo_servicio
 
     def cargar_material(self):
         print('Se está cargando el material en la volqueta...')
