@@ -14,7 +14,7 @@ class Empleado(ABC):
 
         return total
 
-    def  __init__(self):
+    def  __str__(self):
         return f'Documento: {self.documento} - Nombre Completo: {self.nombre_completo} - Correo-e: {self.correo_electronico} - Especialidad: {self.especialidad}'
         
 

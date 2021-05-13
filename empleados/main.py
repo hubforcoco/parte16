@@ -20,5 +20,7 @@ def main():
 
         print(f'Salario: {e.calcular_salario()}')
 
+        print()
+
 if __name__ == '__main__':
     main()
